@@ -6,7 +6,7 @@
 /* header styles */
 .navbar {
     background-color: rgba(229, 84, 115, 0.1);
-    width: 100%;
+    width: 1920px;
     height: 100%;
 }
 
@@ -41,6 +41,13 @@
     height: 800px;
     margin-top: 50px;
     margin-right: 240px;
+
+}
+
+.header-img img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 
 }
 
@@ -82,6 +89,12 @@
         width: 100%;
         height: auto;
         margin: 0;
+    }
+
+    /* ensure the image itself scales on small screens */
+    .header-img img {
+        max-width: 100%;
+        height: auto;
     }
 
     .btn-primary {
