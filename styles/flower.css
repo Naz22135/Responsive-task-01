@@ -90,7 +90,7 @@
 
     width: 464px;
     height: 605px;
-    margin-right: 24px;
+    margin-right: 20px;
 
 }
 
@@ -152,6 +152,7 @@
     .header-section {
         flex-direction: column;
 
+
     }
 
     .header-details {
@@ -194,6 +195,39 @@
     }
 
     /* feature img-section */
+    .feature-img-container {
+        width: 100%;
+        height: 100%;
+        margin: 10px;
+
+
+    }
+
+    .tree {
+        height: auto;
+        width: auto;
+        display: block;
+
+
+    }
+
+    .tree-img {
+        height: auto;
+        width: auto;
+        margin: auto;
+
+    }
+
+    .pink-img-1,
+    .pink-img-2,
+    .pink-img-3 {
+        height: 300px;
+        width: 200px;
+        margin: auto;
+
+
+    }
+
 
 }
 
