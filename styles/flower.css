@@ -200,8 +200,10 @@
 
 }
 
-.sign-btn {
+.sign-btn,
+.subscribe-btn {
     background-color: #E55473;
+    color: white;
     width: 155px;
     height: 64;
     border-radius: 8px;
@@ -220,12 +222,57 @@
     margin-bottom: 48px;
 }
 
-.insta-img-container {
+.instagram-img-container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
 
+}
+
+/* latest deal section  */
+.bg-img {
+
+    background-image: url("../Flower\ Asset/Rectangle 9.png");
+    max-width: 1440px;
+    height: 449px;
+    margin: 0 auto;
+    margin-top: 128px;
+
+}
+
+.coupon-container {
+    width: 866px;
+    height: 206px;
+    margin: 0 auto;
+    padding-top: 122px;
+}
+
+.latest-deal {
+    width: 400px;
+    height: 94px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.review {
+
+    width: 866px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+
+}
+
+.input {
+    width: 700px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
 }
 
 @media screen and (max-width:576px) {
@@ -345,6 +392,4 @@
     }
 }
 
-.hide {
-    display: none;
-}
+.hide {}
