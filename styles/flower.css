@@ -291,7 +291,8 @@
     margin-bottom: 25px;
 }
 
-.description {
+.footer-description {
+    font-size: 18px;
     color: rgba(255, 255, 255, 0.9);
 }
 
@@ -423,5 +424,5 @@
 }
 
 .hide {
-    display: none;
+    /* display: none; */
 }
